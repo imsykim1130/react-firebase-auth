@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  width: 80%;
+  left: 10%;
+  margin-top: 6vh;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+button {
+  width: 300px;
+  padding: 1rem 1.8rem;
+  border-radius: 1.8rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0.062);
+}
+
+button {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+.flex-rowdir {
+  display: flex;
+}
+
+.header__logo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+}
+.header__nav span {
+  font-weight: bold;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.header__navlist {
+  display: flex;
+  align-items: center;
+}
+.header__navlist li {
+  margin: 0 2vw;
+  cursor: pointer;
+}
+
+.main__loginAndLogonArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main__loginAndLogonArea button {
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.main__loginAndLogonArea .question {
+  display: inline;
+  margin-right: 1rem;
+}
+.main__loginAndLogonArea span {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.main__inputArea label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.main__inputArea .errMsg {
+  color: red;
+  line-height: 1;
+  height: 1rem;
+}/*# sourceMappingURL=App.css.map */
